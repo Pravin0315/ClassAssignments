@@ -1,0 +1,61 @@
+h1 {
+    Color: blue;
+    Font-size: 36pt;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+}
+
+h2 {
+    Color: rgb(155, 160, 155);
+    Font-size: 24pt;
+    text-align: left;
+    text-decoration: underline;
+    Font-family: georgia;  
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h3 {
+    Color: rgb(155, 160, 155);
+    Font-size: 24pt;
+    text-align: left;
+    text-decoration: underline;
+    Font-family: georgia;
+}
+
+p {
+    font-family: arial;
+}
+
+h4 {
+    Color: blue;
+    Font-size: 16pt;
+    text-align: left;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+.paddingBottom {
+    Font-family: georgia;
+}
+
+.idk{
+    border: solid; 
+    border-color: black;
+   }
+
+.lead{
+    text-align: center;
+}
+
+.card-header{
+    color: white;
+}
+
+.card2 {
+    border: solid;
+}

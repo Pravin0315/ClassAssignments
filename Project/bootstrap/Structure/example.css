@@ -1,0 +1,3 @@
+input[type=class(firstname)]:focus  {
+    background-color: red;
+}
