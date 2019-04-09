@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <title>Rock, Paper, Scissors</title>
+  <script src="RPS2.js"></script>
+</head>
+<body>
+    <div class="game-wrapper" id="game-wrapper">
+        <div class="game-container">
+          <h1>Rock, Paper, Scissors</h1>
+          <label for="player1" id="playerOneLbl">Player One: Enter Name</label>
+          <input type="text" name="name1" id="player1" />
+          <div><br></div>
+          <label for="player2" id="playerTwoLbl">Player Two: Enter Name</label>
+          <input type="text" name="name2" id="player2" />
+          <div><br></div>
+          <button id="startGameBtn" onclick="rps()">Play Now!</button>
+          <div><br></div>
+          <div><br></div>
+          <div class="score-container">
+            <h4>Scores:</h4>
+            <ul id="scores">
+              <li id="p1wins"></li>
+              <li id="p2wins"></li>
+              <li id="matchwinner"></li>
+            </ul>  
+          </div>
+          <div><br></div>
+        </div>    
+      </div>
+  
+</body>
+</html>
