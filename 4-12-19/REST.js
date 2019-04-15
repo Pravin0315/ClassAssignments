@@ -72,7 +72,7 @@ $(document).ready(function(){
         complete: function(data){
             console.log(data)
             const li = $('<li>');   
-            li.text('Response JSON: ' + (data.responseJSON).toSource())
+            li.text('Response JSON: ' + JSON.stringify((data.responseJSON)))
             list.append(li);   
         }
     })
@@ -87,7 +87,7 @@ $(document).ready(function(){
             complete: function(data){
                 console.log(data);
                 const li = $('<li>');
-                li.text('Response JSON: ' + (data.responseJSON).toSource())
+                li.text('Response JSON: ' + JSON.stringify((data.responseJSON)))
                 list.append(li);
         }
     })
