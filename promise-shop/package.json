@@ -1,0 +1,14 @@
+{
+  "name": "promise-shop",
+  "version": "1.0.0",
+  "description": "no",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "this"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}

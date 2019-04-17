@@ -1,0 +1,20 @@
+{
+  "name": "npmproject",
+  "version": "1.0.0",
+  "description": "my first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Pravin Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
